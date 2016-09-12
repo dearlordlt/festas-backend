@@ -18,7 +18,7 @@ module.exports = function (router, Registration) {
             });
 
             // save the Registration and check for errors
-            Registration.save(function (err) {
+            registration.save(function (err) {
                 if (err) {
                     console.log('ERROR CREATING Registration: ' + err);
                     res.status(500).json({error: err});
