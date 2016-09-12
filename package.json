@@ -1,0 +1,33 @@
+{
+  "name": "auth-seed",
+  "version": "1.0.1004",
+  "description": "sample auth app",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "colors": "^1.1.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.0.1",
+    "mongoose": "^4.5.3",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dearlordlt/auth-seed.git"
+  },
+  "author": "dearlordlt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dearlordlt/auth-seed/issues"
+  },
+  "homepage": "https://github.com/dearlordlt/auth-seed#readme"
+}
