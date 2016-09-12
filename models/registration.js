@@ -33,7 +33,7 @@ regSchema.pre('save', function(next) {
 //create model for user
 var Registration = mongoose.model('Registration', regSchema);
 
-Registration.create({
+/*Registration.create({
     vardas: 'First',
     pastas: 'first@first.lt',
     lytis: 'first',
@@ -45,7 +45,7 @@ Registration.create({
 }, function (err, small) {
   if (err) return handleError(err);
   // saved!
-})
+})*/
 
 // export model
 module.exports = Registration;
