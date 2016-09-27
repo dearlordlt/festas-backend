@@ -7,7 +7,8 @@ module.exports = function (router, Posts) {
 
             var post = new Posts({
                 username: req.body.username,
-                message: req.body.message
+                message: req.body.message,
+                avatar: req.body.avatar
             });
 
             // save the comment and check for errors

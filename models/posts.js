@@ -5,6 +5,7 @@ var Schema = mongoose.Schema;
 var postsSchema = new Schema({
     username: String,
     message: String,
+    avatar: String,
     created_at: Date,
     updated_at: Date
 });
