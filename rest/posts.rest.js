@@ -25,8 +25,12 @@ module.exports = function (router, Posts) {
         })
         .get(function (req, res) {
             var q;
-            if(req.query.skip && req.query.limit) q = Posts.find().skip(parseInt(req.query.skip)).limit(parseInt(req.query.limit)).sort('-date');
-            else q = Posts.find().skip(0).limit(5).sort('-date');
+            if(req.query.skip && req.query.limit) {
+                q = Posts.find().skip(parseInt(req.query.skip)).limit(parseInt(req.query.limit)).sort({date:-1});
+            }
+            else {
+                q = Posts.find().skip(0).limit(5).sort({date:-1});
+            }
             q.then(function (post) {
                 console.log('SUCCESS GETTING posts');
                 res.status(200).json(post);
