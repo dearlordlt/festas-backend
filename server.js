@@ -10,6 +10,7 @@ var morgan = require('morgan');
 var mongoose = require('mongoose');
 var config = require('./config');
 var Registration = require('./models/registration');
+var Posts = require('./models/posts');
 var colors = require('colors');            // use colors in console
 var jwt = require('jsonwebtoken');
 
@@ -44,6 +45,11 @@ router.use(function (req, res, next) {
  * Registration rest service
  */
 require('./rest/registration.rest.js')(router, Registration);
+
+/**
+ * Posts rest service
+ */
+require('./rest/posts.rest.js')(router, Posts);
 
 
 // ======================================================
