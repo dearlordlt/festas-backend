@@ -26,7 +26,7 @@ module.exports = function (router, Posts) {
         .get(function (req, res) {
             var q;
             if(req.query.skip && req.query.limit) q = Posts.find().skip(parseInt(req.query.skip)).limit(parseInt(req.query.limit));
-            else q = Posts.find().skip(0).limit(5).sort(['created_at', 'descending']);
+            else q = Posts.find().skip(0).limit(5).sort('-date');
             q.then(function (post) {
                 console.log('SUCCESS GETTING posts');
                 res.status(200).json(post);
