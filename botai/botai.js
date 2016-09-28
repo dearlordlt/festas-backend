@@ -16,28 +16,28 @@ var frazes = {};
 var generateFrazes = function () {
     frazes = {
         politinis: getRnd(sentences.polIntro) + ' ' +
-        getRnd(sentences.veiksnys) + ' ' +
-        getRnd(sentences.tarinys) + '.' +
-        getRnd(sentences.polMid) + ' ' +
-        getRnd(sentences.veiksnys) + ' #' +
-        getRnd(sentences.veiksnys),
+            getRnd(sentences.veiksnys) + ' ' +
+            getRnd(sentences.tarinys) + '.' +
+            getRnd(sentences.polMid) + ' ' +
+            getRnd(sentences.veiksnys) + ' #' +
+            getRnd(sentences.veiksnys),
         vesaite: getRnd(sentences.coolIntro) + ', ' +
-        getRnd(sentences.coolMid) + ', ' +
-        getRnd(sentences.coolOutro) + ' ' +
-        getRnd(sentences.zenklas) + ' #' +
-        getRnd(sentences.hash),
+            getRnd(sentences.coolMid) + ', ' +
+            getRnd(sentences.coolOutro) + ' ' +
+            getRnd(sentences.zenklas) + ' #' +
+            getRnd(sentences.hash),
         aparatas: getRnd(sentences.engIntro) + ' ' +
-        getRnd(sentences.engSomething) + ' ' +
-        getRnd(sentences.engFatality) + ' ' +
-        getRnd(sentences.engOutro),
+            getRnd(sentences.engSomething) + ' ' +
+            getRnd(sentences.engFatality) + ' ' +
+            getRnd(sentences.engOutro),
         sexy: 'Nuo šitos šventės man jau ' +
-        getRnd(sentences.tarinys) + ' ' +
-        getRnd(sentences.sexyVeiksnys) + ' ' +
-        getRnd(sentences.zenklas) + ' #' +
-        getRnd(sentences.sexyVeiksnys),
+            getRnd(sentences.tarinys) + ' ' +
+            getRnd(sentences.sexyVeiksnys) + ' ' +
+            getRnd(sentences.zenklas) + ' #' +
+            getRnd(sentences.sexyVeiksnys),
         zoidberg: getRnd(sentences.zoidberg1) + ', ' +
-        getRnd(sentences.zoidberg2) + ' #' +
-        getRnd(sentences.hash)
+            getRnd(sentences.zoidberg2) + ' #' +
+            getRnd(sentences.hash)
     }
 };
 
