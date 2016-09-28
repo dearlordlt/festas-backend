@@ -95,4 +95,4 @@ var botPost = function () {
 };
 
 botPost();
-var interval = setInterval(botPost, 10000);
+var interval = setInterval(botPost, 1000*60);
