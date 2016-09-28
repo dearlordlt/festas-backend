@@ -23,7 +23,7 @@ var generateFrazes = function () {
             getRnd(sentences.veiksnys),
         vesaite: getRnd(sentences.coolIntro) + ', ' +
             getRnd(sentences.coolMid) + ', ' +
-            getRnd(sentences.coolOutro) + ' ' +
+            getRnd(sentences.coolOutro) + '' +
             getRnd(sentences.zenklas) + ' #' +
             getRnd(sentences.hash),
         aparatas: getRnd(sentences.engIntro) + ' ' +
@@ -32,7 +32,7 @@ var generateFrazes = function () {
             getRnd(sentences.engOutro),
         sexy: 'Nuo šitos šventės man jau ' +
             getRnd(sentences.tarinys) + ' ' +
-            getRnd(sentences.sexyVeiksnys) + ' ' +
+            getRnd(sentences.sexyVeiksnys) + '' +
             getRnd(sentences.zenklas) + ' #' +
             getRnd(sentences.sexyVeiksnys),
         zoidberg: getRnd(sentences.zoidberg1) + ', ' +
@@ -51,7 +51,7 @@ var generateFrazes = function () {
                 getRnd(sentences.vytas).toUpperCase() + ' ' +
                 getRnd(sentences.asmuo).toUpperCase() + ' ' +
                 getRnd(sentences.vytas).toUpperCase() + ' ' +
-                getRnd(sentences.tarinysNow).toUpperCase() + ' ' +
+                getRnd(sentences.tarinysNow).toUpperCase() + '' +
                 getRnd(sentences.zenklas).toUpperCase(),
         vytas3: getRnd(sentences.vytas).toUpperCase() + ' bled ' +
                 getRnd(sentences.vytas).toUpperCase() + ' . ' +
@@ -128,7 +128,7 @@ var zamolskis = {
 var vytas = {
     vardas: 'VytasTaksiKaune',
     adresas: '@salinpedikus',
-    paternai: ['akademinis', 'vytas1', 'vytas2', 'vytas3'],
+    paternai: ['vytas1', 'vytas2', 'vytas3'],
     avataras: 'assets/avatars/bots/vytas.png'
 };
 
@@ -166,7 +166,7 @@ var personazai = [
     nosferatu,
     zamolskis,
     vytas, vytas,
-    rektorius, rektorius,
+    rektorius,
     jonka
 ];
 
