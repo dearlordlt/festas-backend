@@ -26,14 +26,20 @@ module.exports = function (router, Posts) {
         .get(function (req, res) {
             var q;
             if(req.query.skip && req.query.limit) {
-                q = Posts.find().skip(parseInt(req.query.skip)).limit(parseInt(req.query.limit)).sort({date:-1});
+                q = Posts.find().skip(parseInt(req.query.skip)).limit(parseInt(req.query.limit)).sort({created_at:'desc'});
             }
             else {
-                q = Posts.find().skip(0).limit(5).sort({date:-1});
+                q = Posts.find().skip(0).limit(5).sort({created_at:'desc'});
             }
-            q.then(function (post) {
-                console.log('SUCCESS GETTING posts');
-                res.status(200).json(post);
+            q.exec(function (err, post) {
+                if(err) {
+                    console.log('ERROR GETTING posts' + err);
+                    res.status(500).json({error: err});
+                }
+                else {
+                    console.log('SUCCESS GETTING posts');
+                    res.status(200).json(post);
+                }
             });
         });
 
