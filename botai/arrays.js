@@ -68,6 +68,6 @@ mod.AZintro = ['Miela', 'Gerbiama', 'Milijonine', 'Akademine', 'Projektine'];
 
 mod.AZveiksnys = ['publika', 'bendruomene', 'aukštuomene', 'draugija'];
 
-mod.AZTarinys = ['dalyvaukime orientaciniame!', 'linksminkimės!', 'švęskime!', 'pakvieskite daktarą (ne Tą)!!!', 'uždarykime daktarą (Tą)!', 'dalyvaukime milijone projektų!', 'dalis universitetų Lietuvoje - Гиблое дело', 'viešieji pirkimai - чяпуха', 'vienas milijonas - мелочь', 'milijonas milijonų - slėnio projektas', 'kas matė Redą?', 'kas ištarabildino projektinį finansavimą?'];
+mod.AZtarinys = ['dalyvaukime orientaciniame!', 'linksminkimės!', 'švęskime!', 'pakvieskite daktarą (ne Tą)!!!', 'uždarykime daktarą (Tą)!', 'dalyvaukime milijone projektų!', 'dalis universitetų Lietuvoje - Гиблое дело', 'viešieji pirkimai - чяпуха', 'vienas milijonas - мелочь', 'milijonas milijonų - slėnio projektas', 'kas matė Redą?', 'kas ištarabildino projektinį finansavimą?'];
 
 module.exports = mod;

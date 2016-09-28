@@ -56,7 +56,7 @@ var generateFrazes = function () {
                 getRnd(sentences.tarinysNow).toUpperCase() + '' +
                 getRnd(sentences.zenklas).toUpperCase(),
         vytas3: getRnd(sentences.vytas).toUpperCase() + ' bled ' +
-                getRnd(sentences.vytas).toUpperCase() + ' . ' +
+                getRnd(sentences.vytas).toUpperCase() + ' . #' +
                 getRnd(sentences.hash).toUpperCase(),
         akademinis: getRnd(sentences.akademinisPareiskimas) + ' ' +
                     getRnd(sentences.akademinisKomentaras) + ' #' +
