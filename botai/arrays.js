@@ -16,7 +16,7 @@ mod.polIntro = ['Per paskutinę kadenciją ', 'Apklausos rodo, kad ', 'Slaptoje 
 
 mod.polMid = ['Dabar reikalinga ', 'Tuo labiau, kai ir taip yra ', 'Šalia to - ', 'Pasižadu, mano šūkis bus ', 'Jau žinoma, kad tai buvo ', 'Tai ir yra ', 'Šitą nusikaltimą atliko ', 'Tarp kaltininkų tik ', 'Jei taip ir toliau, būtinai ateis ', 'Niekas kitas čia nekaltas, ', 'Laurus susirinko '];
 
-mod.hash = [''];
+mod.hash = ['a'];
 
 mod.coolIntro = ['Aš esu kambaryje, čia tamsu ', 'Leiskite nors šiek tiek apšilti man kojas, ', 'Nebenoriu miegoti viena, todėl ', 'Kas yra verslas, ', 'Kai kuriose savivaldybėse ', 'Procentas, tai čia šimtas, '];
 
@@ -36,7 +36,7 @@ mod.engOutro = ['. Fenk jū veri mač.', ' for it tiu bylong lasting.', ', pliz 
 
 mod.zoidberg1 = ['i`m swelling with patriotic mucus! ', 'You’ll never guess where I’ve been! ', 'Ah, there’s nothing like the first cup of dumpster juice in the morning!', 'Why always the fighting? ', 'You seem malnourished. Are you suffering from internal parasites?', 'I`m having a wonderfulime', 'Eexcuse me, but who\'s the doctor here?'];
 
-mod.zoidberg2 = ['By the way, I took the liberty of fertilizing your caviar', 'I’m looking for something beautiful and cheap for a lady who is one of those things!', 'Hooray, I’m useful!', 'Whoop! Whoop! Whoop!', 'Whoop! Whoop! Whoop!', ''];
+mod.zoidberg2 = ['By the way, I took the liberty of fertilizing your caviar', 'I’m looking for something beautiful and cheap for a lady who is one of those things!', 'Hooray, I’m useful!', 'Whoop! Whoop! Whoop!', 'Whoop! Whoop! Whoop!'];
 
 mod.grazulioPriesas = ['homoseksualistai', 'STT', 'STT agentai', 'seimo nariai', 'amerikos šnipas', 'konservatoriai'];
 
