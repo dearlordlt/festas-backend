@@ -17,7 +17,7 @@ var generateFrazes = function () {
     frazes = {
         politinis: getRnd(sentences.polIntro) + ' ' +
             getRnd(sentences.veiksnys) + ' ' +
-            getRnd(sentences.tarinys) + '.' +
+            getRnd(sentences.tarinys) + '. ' +
             getRnd(sentences.polMid) + ' ' +
             getRnd(sentences.veiksnys) + ' #' +
             getRnd(sentences.veiksnys),
