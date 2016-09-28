@@ -41,7 +41,8 @@ var generateFrazes = function () {
         grazulis:   getRnd(sentences.grazulioPriesas) + ' ir ' +
                     getRnd(sentences.asmuo) + ' ' +
                     getRnd(sentences.tarinysNow) + ' ' +
-                    '#uzLietuvaVyrai',
+                    '#uzLietuvaVyrai' + '#' + 
+                    getRnd(sentences.titulas),
         vytas1: getRnd(sentences.vytas).toUpperCase() + ' ' +
                 getRnd(sentences.veiksnys).toUpperCase() + ' ' +
                 getRnd(sentences.vytas).toUpperCase() + ' ' +
@@ -49,6 +50,7 @@ var generateFrazes = function () {
                 getRnd(sentences.vytas).toUpperCase() + '!!!1!!' ,
         vytas2: getRnd(sentences.vytas).toUpperCase() + ' ' +
                 getRnd(sentences.vytas).toUpperCase() + ' ' +
+                getRnd(sentences.titulas).toUpperCase() + ' ' +
                 getRnd(sentences.asmuo).toUpperCase() + ' ' +
                 getRnd(sentences.vytas).toUpperCase() + ' ' +
                 getRnd(sentences.tarinysNow).toUpperCase() + '' +
@@ -58,6 +60,18 @@ var generateFrazes = function () {
                 getRnd(sentences.hash).toUpperCase(),
         akademinis: getRnd(sentences.akademinisPareiskimas) + ' ' +
                     getRnd(sentences.akademinisKomentaras) + ' #' +
+                    getRnd(sentences.hash),
+        augustinas: getRnd(sentences.aprielinksnis) + ' ' +
+                    getRnd(sentences.aveiksnys) + ' - ne ' +
+                    getRnd(sentences.aoptional) + ' ' + 
+                    getRnd(sentences.aveiksnys2) + ' ' +
+                    getRnd(sentences.atarinys) + '. ' +
+                    getRnd(sentences.aveiksnys3) + ' - ' + 
+                    getRnd(sentences.abendratis) + ' ' +
+                    getRnd(sentences.apezmuo) + '.' ,
+        zukauskas:  getRnd(sentences.AZintro) + ' ' +
+                    getRnd(sentences.AZveiksnys) + ', ' + 
+                    getRnd(sentences.AZtarinys) + ' #' +
                     getRnd(sentences.hash)
     };
 };
@@ -93,14 +107,14 @@ var grazulis = {
 var henyte = {
     vardas: 'heniukas1',
     adresas: '@thezone',
-    paternai: ['akademinis'],
+    paternai: ['sexy'],
     avataras: 'assets/avatars/bots/henyte.png'
 };
 
 var pitreniene = {
     vardas: 'OhDrone906090',
     adresas: '@antakiaimarkeriu',
-    paternai: ['politinis', 'akademinis', 'sexy'],
+    paternai: ['politinis', 'sexy'],
     avataras: 'assets/avatars/bots/morda.png'
 };
 
@@ -135,14 +149,14 @@ var vytas = {
 var rektorius = {
     vardas: 'JoMagnificencija',
     adresas: '@cr.vu.lt',
-    paternai: ['akademinis'],
+    paternai: ['akademinis', 'zukauskas'],
     avataras: 'assets/avatars/bots/zukauskas.png'
 };
 
 var jonka = {
     vardas: 'JonkaSuTavimi',
     adresas: '@gvoltavonesKasnakt',
-    paternai: ['akademinis', 'sexy'],
+    paternai: ['sexy'],
     avataras: 'assets/avatars/bots/jonka.png'
 };
 
@@ -157,20 +171,21 @@ var augustinas = {
 
 var personazai = [
     vesaite,
-    aparatas, aparatas, aparatas,
+    aparatas,
     zoidberg,
-    grazulis, grazulis,
+    grazulis,
     henyte,
-    pitreniene, pitreniene,
+    pitreniene,
     rasputinas,
     nosferatu,
     zamolskis,
-    vytas, vytas,
+    vytas,
     rektorius,
+    augustinas,
     jonka
 ];
 
-/*augustinas*/
+
 
 ////////////////////////////////////////////////////
 

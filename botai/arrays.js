@@ -6,7 +6,7 @@ mod.asmuo = ['Landsbergis', 'prezidentė', 'Mockus', 'mergaitė', 'dr. Jonas', '
 
 mod.titulas = ['tamsos Valdovas', 'profesorius', 'studentas', 'amžiną atilsį', 'doc.', 'prof.', 'projekto vadovas'];
 
-mod.sexyVeiksnys = ['penis', 'vagina', 'sėkla', ''];
+mod.sexyVeiksnys = ['penis', 'vagina', 'sėkla', 'libido', 'mano mažytis', 'saldi nuodėmė', 'bumerangas', 'centrifuga', 'gerai suderintas klavyras', 'anglų ragas', 'smuikelis', 'eržilas'];
 
 mod.tarinys = ['išaugo', 'nukrito', 'išvažiavo', 'daugiau didėjo nei mažėjo', 'nepritarė šiuo klausimu', 'atsirado', 'išnyko', 'sužibėjo', 'nustebino', 'nenustebino', 'išlindo', 'kreipėsi į aukštesnes institucijas'];
 
@@ -16,7 +16,7 @@ mod.polIntro = ['Per paskutinę kadenciją ', 'Apklausos rodo, kad ', 'Slaptoje 
 
 mod.polMid = ['Dabar reikalinga ', 'Tuo labiau, kai ir taip yra ', 'Šalia to - ', 'Pasižadu, mano šūkis bus ', 'Jau žinoma, kad tai buvo ', 'Tai ir yra ', 'Šitą nusikaltimą atliko ', 'Tarp kaltininkų tik ', 'Jei taip ir toliau, būtinai ateis ', 'Niekas kitas čia nekaltas, ', 'Laurus susirinko '];
 
-mod.hash = ['a'];
+mod.hash = ['followme', 'hashtag', 'groteles', 'rinkimai2016', 'sirdziuprezidentas', 'food4thoughts', 'satan', 'thuglife', 'girls', 'just4fun', 'life', 'gangsta', 'ironija', 'paduduok', 'tikjuokauju', 'nesigailiunk', 'MGvalda', '106k', 'erudicija', 'sparnuotizodziai', 'midnightfewer', 'fanboy', 'YOLO', 'nosferatu', 'pasiutpolke'];
 
 mod.coolIntro = ['Aš esu kambaryje, čia tamsu ', 'Leiskite nors šiek tiek apšilti man kojas, ', 'Nebenoriu miegoti viena, todėl ', 'Kas yra verslas, ', 'Kai kuriose savivaldybėse ', 'Procentas, tai čia šimtas, '];
 
@@ -44,8 +44,30 @@ mod.vytas = ['ubagai ', 'valdže ', 'vagiai ', 'šleževičius ', 'prie ruso ', 
 
 ////////////////////////////////////////////////////////////
 
-mod.akademinisPareiskimas = ['Kas yra verslas, '];
+mod.akademinisPareiskimas = ['Disertacijoje buvo ne kartą minimas našumas.', 'Gerai žinomas faktas, kad šviesa yra dalelės.', 'Šviesa, be abejo, yra bangos.', 'Fazės moduliacija disertanto pernelyg dažnai linksniuojama.', 'Išvadose pasigedau konkretumo.', 'Gynimo metu nieko nesimatė skaidrėse', 'Dar neteko dirbti su dr. Ignu.', 'Kyla abejoniu dėl dr. Jono kompetencijų.', 'Bandžiau skaityti abi disertacijas.', 'Japonijoje panašūs rezultatai jau buvo publikuojami prieš dešimtmetį.'];
 
-mod.akademinisKomentaras = ['eksportas pasiekė prieškrizinį lygį'];
+mod.akademinisKomentaras = ['Ką disertantas konkrečiai tuo norėjo pasakyti?', 'Tačiau pasigendu mokslinio naujumo.', 'Akademinė bendruomenė tam nepritars.', 'Na, projektą rašyti jau galima!', 'Silpna pradžia, žiūrėsim kaip toliau', 'Horodničiaus mokykla, vienareikšmiškai', 'Geriau jau būtų nanodalelės', 'Todėl pažeidžiami anglų kalbos pagrindai', 'Skirtumų tarp pirmo ir antro - nerasta', 'Kuom pagrįstas toks absurdas?', 'Fantastiški rezultatai, puikus darbas.', 'Tikrų tikriausiais mokslas!'];
+
+mod.aprielinksnis = ['Mano', 'Tavo', 'Sąvojo', 'XXX Senukų', 'Augustino Rakausko', 'Dvasios verslumo', 'Dangiškojo pienių (p)ūko', 'Mūsų visų', 'Kiekvieno ir niekieno'];
+
+mod.aveiksnys = ['meilės vienybės harmonija', 'išminties intelektas', 'teisingumo potyris', 'tikėjimo septyniukė', 'meilės filharmonija', 'vienybės meilė', 'jausmo proto būsena', 'jausmo protena', 'proto jausmena', 'dvasios USB laikmena'];
+
+mod.aoptional = ['Augustino', '', '', 'aštuoniukės', 'dvasios proto', 'sielos jusmens', 'Rakausko'];
+
+mod.aveiksnys2 = ['turtus', 'syvus', 'sveikatą', 'džiaugsmą', 'gėrį', 'blogį', 'gyvenimo skonį'];
+
+mod.atarinys = ['turėti', 'siekti', 'skleisti', 'išsunkti', 'pasigvožti', 'demonstruoti', 'taškyti'];
+
+mod.aveiksnys3 = ['Tikslas', 'Prakeiksmas', 'Ištvirkimas', 'Akibrokštas', 'Aštuonetas', 'Verslumo dvasia'];
+
+mod.abendratis = ['sugebėti suprasti', 'įteigti', 'nuteikti', 'įpykusiai miniai įrodyti', 'sumenkinti', 'nutukinti', 'atbukinti', 'materializuoti', 'apmokęstinti'];
+
+mod.apezmuo = ['mano imperiją', 'jausmo protą', 'harmonijos aušrą', 'minties kvadratą', 'elipsės proto radiusą', 'jausmo tranformacijos perturbacijas', 'mano paties proto jausmą', 'emocinę devyniukę', 'daugiaryžį'];
+
+mod.AZintro = ['Miela', 'Gerbiama', 'Milijonine', 'Akademine', 'Projektine'];
+
+mod.AZveiksnys = ['publika', 'bendruomene', 'aukštuomene', 'draugija'];
+
+mod.AZTarinys = ['dalyvaukime orientaciniame!', 'linksminkimės!', 'švęskime!', 'pakvieskite daktarą (ne Tą)!!!', 'uždarykime daktarą (Tą)!', 'dalyvaukime milijone projektų!', 'dalis universitetų Lietuvoje - Гиблое дело', 'viešieji pirkimai - чяпуха', 'vienas milijonas - мелочь', 'milijonas milijonų - slėnio projektas', 'kas matė Redą?', 'kas ištarabildino projektinį finansavimą?'];
 
 module.exports = mod;
