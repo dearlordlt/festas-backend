@@ -220,4 +220,4 @@ botPost();
 
 ////////////////////////////////////////////////////
 
-var interval = setInterval(botPost, 1000 * 60 + 7);
+var interval = setInterval(botPost, 1000 * 60 * 5 + 333);
